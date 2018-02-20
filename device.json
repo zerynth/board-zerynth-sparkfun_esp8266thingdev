@@ -1,0 +1,34 @@
+{
+    "name":"Sparkfun Esp8266 Thing Dev",
+    "target":"sparkfun_esp8266thingdev",
+    "cc":"xtensalx106gcc",
+    "classes":["sparkfun_esp8266thingdev.SparkfunEsp8266ThingDev"],
+    "ram":80,
+    "flash":4096,
+    "family_type":"xtensa-lx106",
+    "family_name":"esp8266",
+    "chip_model":"esp8266",
+    "manual_reset": 0,
+    "preferred_baud":115200,
+    "board_producer":"Sparkfun",
+    "chip_manifacturer":"Espressif",
+    "architecture":"xtensa-lx106",
+    "gccopts":{
+        "cflags": ["-Os","-Wpointer-arith","-Wno-implicit-function-declaration","-Wl,-EL","-fno-inline-functions","-nostdlib","-mlongcalls","-mtext-section-literals","-falign-functions=4","-ffunction-sections","-fdata-sections", "-DICACHE_FLASH"],
+        "defs": ["ESP8266-RTOS","BYTECODE_ACCESS_ALIGNED_4","VM_DEFAULT_THREAD_SIZE=1024"]
+    },
+    "relocator":"xtensalx106",
+    "vm_chunk":64,
+    "type":"board",
+    "virtualizable":"SparkfunEsp8266ThingDev",
+    "has_alter_ego":false,
+    "uplink_reset": "reset",
+    "connection":{
+        "baudrate":115200,
+        "parity":"n",
+        "bytesize":8,
+        "stopbits":1,
+        "dsrdtr":false,
+        "rtscts":false
+    }
+}

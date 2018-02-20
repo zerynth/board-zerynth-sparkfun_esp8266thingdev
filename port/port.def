@@ -1,0 +1,72 @@
+/* Port definition */
+
+////LAYOUT: sparkfun_esp8266thingdev
+////PERIPHERALS: SERIAL0 ADC0 PWMD0 SPI0 I2C0 SDIO0
+////CDEFINES: ESP8266_VHAL
+
+const PinInfo const _vhalpinmap[] STORED = {
+    /* D0   */ MAKE_PIN(PA, 5,  HAS_EXT | HAS_I2C),
+    /* D1   */ MAKE_PIN(PA, 0,  HAS_EXT),
+    /* D2   */ MAKE_PIN(PA, 4,  HAS_EXT | HAS_PWM | HAS_I2C),
+    /* D3   */ MAKE_PIN(PA, 13,  HAS_EXT | HAS_SPI | HAS_SER),
+    /* D4   */ MAKE_PIN(PA, 12,  HAS_EXT | HAS_SPI | HAS_PWM),
+    /* D5   */ MAKE_PIN(PA, 16,  HAS_EXT),
+    /* D6   */ MAKE_PIN(PA, 15,  HAS_EXT | HAS_SER | HAS_PWM),
+    /* D7   */ MAKE_PIN(PA, 2,  HAS_EXT),
+    /* D8   */ MAKE_PIN(PA, 14,  HAS_EXT | HAS_SPI | HAS_PWM),
+    /* D9   */ MAKE_PIN(PA, 1,  HAS_EXT | HAS_SER),
+    /* D10  */ MAKE_PIN(PA, 3,  HAS_EXT | HAS_SER),
+    
+    /* A0   */ MAKE_PIN(PA, 17,  HAS_EXT | HAS_ADC),
+
+};
+
+
+const PinClass const _analogclass[] STORED = {
+    /* A0 */ MAKE_PIN_CLASS(11, 0 , 0, 0),
+};
+
+const PinClass const _spiclass[] STORED = {
+    /* MOSI0 */ MAKE_PIN_CLASS(3, 0, 0, 0),
+    /* MISO0 */ MAKE_PIN_CLASS(4, 0, 0, 0),
+    /* SCK0 */ MAKE_PIN_CLASS(8, 0, 0, 0),
+
+};
+
+const PinClass const _i2cclass[] STORED = {
+    /* SDA0 */ MAKE_PIN_CLASS(2, 0, 0, 0),
+    /* SCL0 */ MAKE_PIN_CLASS(0, 0, 0, 0),
+};
+
+const PinClass const _pwmclass[] STORED = {
+    /* D2 */ MAKE_PIN_CLASS(2, 0, 0, 0),
+    /* D4 */ MAKE_PIN_CLASS(4, 2, 0, 0),
+    /* D6 */ MAKE_PIN_CLASS(6, 3, 0, 0),
+    /* D8 */ MAKE_PIN_CLASS(8, 1, 0, 0),
+
+};
+
+const PinClass const _icuclass[] STORED = {
+};
+
+const PinClass const _canclass[] STORED = {
+};
+
+const PinClass const _serclass[] STORED = {
+    /* RX0 */ MAKE_PIN_CLASS(10, 0, 0, 0),
+    /* TX0 */ MAKE_PIN_CLASS(9, 0, 0, 0),
+    /* RX1 */ MAKE_PIN_CLASS(3, 0, 0, 0),
+    /* TX1 */ MAKE_PIN_CLASS(6, 0, 0, 0),
+};
+
+const PinClass const _dacclass[] STORED = {
+
+};
+
+const PinClass const _ledclass[] STORED = {
+    /* LED0 */ MAKE_PIN_CLASS(0, 0, 0, 0),
+};
+
+const PinClass const _btnclass[] STORED = {
+
+};
