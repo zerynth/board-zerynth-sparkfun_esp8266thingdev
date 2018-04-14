@@ -1,9 +1,9 @@
 {
     "dependencies": {
-        "lib.espressif.esp8266wifi": "r2.1.0",
-        "sys.zerynth.esptool": "r2.1.0",
-        "sys.zerynth.xtensalx106": "r2.1.0",
-        "vhal.zerynth.xtensalx106_esp8266": "r2.1.0"
+        "lib.espressif.esp8266wifi": "r2.1.1",
+        "sys.zerynth.esptool": "r2.1.1",
+        "sys.zerynth.xtensalx106": "r2.1.1",
+        "vhal.zerynth.xtensalx106_esp8266": "r2.1.1"
     },
     "description": "Add support for Sparkfun Esp8266 Thing Dev",
     "fullname": "board.zerynth.sparkfun_esp8266thingdev",
@@ -22,6 +22,6 @@
     ],
     "repo": "official",
     "title": "Sparkfun Esp8266 Thing Dev Support Package",
-    "version": "r2.1.0",
+    "version": "r2.1.1",
     "whatsnew": "First Release"
 }
