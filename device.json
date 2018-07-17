@@ -22,6 +22,7 @@
     "type":"board",
     "virtualizable":"SparkfunEsp8266ThingDev",
     "has_alter_ego":false,
+    "flash_erasable": true,
     "uplink_reset": "reset",
     "connection":{
         "baudrate":115200,
