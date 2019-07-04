@@ -1,0 +1,15 @@
+---
+description: Add support for Sparkfun Esp8266 Thing Dev
+fullname: board.zerynth.sparkfun_esp8266thingdev
+info:
+    board: Sparkfun Esp8266 Thing Dev
+    chip_manufacturer: Espressif
+    device: esp8266
+    family_type: Xtensa lx106
+keywords:
+- espressif
+- esp8266
+- board
+- sparkfun
+title: Sparkfun Esp8266 Thing Dev Support Package
+...
